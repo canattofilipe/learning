@@ -1,0 +1,50 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "72 kg",
+      "goal": "Marathon training - high-calorie carbohydrate loading for endurance performance",
+      "restrictions": "Vegetarian, no dairy"
+    },
+    "solution_criteria": [
+      "Meal plan contains 3-4 meals/snacks spread throughout the day",
+      "Total daily calories align with high-endurance athlete needs (approximately 3,000-3,500 kcal)",
+      "Carbohydrates comprise 60-70% of total calories to support marathon training",
+      "All meals respect vegetarian and dairy-free restrictions",
+      "Plan is concise and fits on a single page"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring high calorie intake and carbohydrate loading strategies"
+  },
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "85 kg",
+      "goal": "Muscle recovery and strength gains with optimal protein timing",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan covers full 24-hour period with 4-5 meals/snacks",
+      "Protein intake strategically distributed around training, with minimum 25-30g per meal",
+      "Total daily protein meets strength athlete needs (1.6-2.2g per kg bodyweight)",
+      "Includes carbohydrates for energy and recovery, with emphasis on pre/post-workout timing"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a strength/power athlete (weightlifter) focusing on protein timing and muscle recovery nutrition"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "72 kg",
+      "goal": "High-performance swimming training with optimal energy and recovery",
+      "restrictions": "Vegetarian"
+    },
+    "solution_criteria": [
+      "Meal plan covers all 3 meals and includes hydration guidance appropriate for a swimmer",
+      "All meals are vegetarian and meet caloric/protein needs for a 72kg athlete in training",
+      "Plan is concise and practical to prepare/consume within a single day"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a sport-specific athlete (swimmer) with dietary restrictions (vegetarian) and hydration requirements"
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "output": "# Marathon Training Nutrition Plan (Vegetarian, Dairy-Free)\n\n## Daily Calorie Target\n**~3,000-3,500 calories** (depending on training intensity)\n\n## Macronutrient Distribution\n- **Carbs: 55-60%** (2,000-2,100 cal) \u2014 fuel for endurance\n- **Protein: 15-20%** (450-700 cal) \u2014 muscle recovery\n- **Fat: 20-25%** (600-875 cal) \u2014 sustained energy\n\n---\n\n## Key Foods by Category\n\n### **Carbohydrates (Prioritize)**\n- Whole grains: oats, brown rice, quinoa, whole wheat pasta\n- Legumes: lentils, chickpeas, black beans (dual carb + protein)\n- Fruits: bananas, dates, berries, oranges\n- Root vegetables: sweet potatoes, beets\n\n### **Protein Sources**\n- Legumes & beans (already listed)\n- Nuts & seeds: almonds, peanut butter, hemp seeds, chia\n- Tofu & tempeh\n- Plant-based protein powder (pea, rice, hemp blend)\n\n### **Healthy Fats**\n- Olive oil, coconut oil\n- Avocados\n- Nuts and seeds\n- Plant-based butter alternatives\n\n### **Hydration & Electrolytes**\n- Water (3-4L daily)\n- Coconut water, electrolyte drinks\n- Herbal tea\n\n---\n\n## Sample Training Day\n- **Breakfast:** Oatmeal + banana + peanut butter\n- **Snack:** Dates + almonds\n- **Lunch:** Quinoa + roasted chickpeas + vegetables + olive oil\n- **Pre-run:** Banana + energy bar\n- **Post-run:** Smoothie (fruit + plant protein + nut butter)\n- **Dinner:** Brown rice + lentil curry with sweet potato\n\n**Adjust portions based on training volume.**",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "180 cm",
+        "weight": "72 kg",
+        "goal": "Marathon training - high-calorie carbohydrate loading for endurance performance",
+        "restrictions": "Vegetarian, no dairy"
+      },
+      "solution_criteria": [
+        "Meal plan contains 3-4 meals/snacks spread throughout the day",
+        "Total daily calories align with high-endurance athlete needs (approximately 3,000-3,500 kcal)",
+        "Carbohydrates comprise 60-70% of total calories to support marathon training",
+        "All meals respect vegetarian and dairy-free restrictions",
+        "Plan is concise and fits on a single page"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a high-endurance athlete (marathon runner) requiring high calorie intake and carbohydrate loading strategies"
+    },
+    "score": 4,
+    "reasoning": "The solution meets the mandatory requirement of including daily caloric total, macronutrient breakdown, and meal examples with foods. However, it critically fails to provide exact portions and calorie counts for the sample meals, making it impossible to verify the plan actually delivers 3,000-3,500 calories as claimed. Additionally, the macronutrient distribution (55-60% carbs) contradicts both the stated criterion (60-70%) and the goal of 'high-calorie carbohydrate loading.' While the solution is well-structured and respects all dietary restrictions, the lack of quantifiable meal details and the suboptimal carbohydrate percentage represent significant deficiencies that prevent a higher score."
+  },
+  {
+    "output": "# Nutrition Plan for Muscle Recovery & Strength Gains\n\n## Daily Caloric Intake\n- **Estimated TDEE:** 2,400-2,700 calories (depending on activity level)\n- **Surplus for gains:** 2,700-2,900 calories/day\n\n## Macronutrient Targets\n\n| Macro | Daily Amount | Per Meal |\n|-------|-------------|----------|\n| **Protein** | 170-190g (2g/kg) | 30-40g per meal |\n| **Carbs** | 270-360g | Time around workouts |\n| **Fat** | 80-100g | Spread throughout day |\n\n## Optimal Meal Timing\n\n### Pre-Workout (1-2 hours before)\n- Carbs + Moderate protein + Low fat\n- *Example:* Oatmeal + banana + chicken breast\n\n### Post-Workout (within 1-2 hours)\n- High carbs + High protein (most critical meal)\n- *Example:* Chicken rice bowl with vegetables\n\n### Other Meals\n- Balanced macros every 3-4 hours\n- *Examples:* Salmon with sweet potato, Greek yogurt with granola, lean beef with pasta\n\n## Key Foods to Prioritize\n- **Proteins:** Chicken, fish, beef, eggs, Greek yogurt, cottage cheese\n- **Carbs:** Rice, oats, sweet potatoes, pasta, bread\n- **Healthy fats:** Olive oil, avocado, nuts, fatty fish\n\n## Hydration\n- **Minimum:** 3+ liters daily (more on training days)\n\nWould you like a sample day of meal ideas?",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "180 cm",
+        "weight": "85 kg",
+        "goal": "Muscle recovery and strength gains with optimal protein timing",
+        "restrictions": "None"
+      },
+      "solution_criteria": [
+        "Meal plan covers full 24-hour period with 4-5 meals/snacks",
+        "Protein intake strategically distributed around training, with minimum 25-30g per meal",
+        "Total daily protein meets strength athlete needs (1.6-2.2g per kg bodyweight)",
+        "Includes carbohydrates for energy and recovery, with emphasis on pre/post-workout timing"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a strength/power athlete (weightlifter) focusing on protein timing and muscle recovery nutrition"
+    },
+    "score": 2,
+    "reasoning": "The solution violates all three mandatory requirements. While it provides excellent nutritional framework and principles, it explicitly asks 'Would you like a sample day of meal ideas?' rather than delivering the required 1-day meal plan with exact foods and portions. The task explicitly asks for 'a compact, concise 1 day meal plan' with specific meals, but the solution only provides a template/guide. It lacks: (1) specific daily caloric total, (2) actual meals with exact portions and timing, and (3) a complete 24-hour meal structure with 4-5 meals/snacks. This is a framework document, not an executed meal plan."
+  },
+  {
+    "output": "# Nutrition Plan for Vegetarian Swimmer\n\n## Daily Calorie & Macro Targets\n- **Daily calories:** 2,800-3,200 kcal (depending on training intensity)\n- **Protein:** 1.6-2.0g per kg body weight = **115-145g/day**\n- **Carbs:** 6-10g per kg = **430-720g/day** (prioritize around training)\n- **Fat:** 1.0-1.3g per kg = **72-94g/day**\n\n## Key Protein Sources (Vegetarian)\n- Greek yogurt, cottage cheese, milk\n- Eggs (2-3 daily)\n- Legumes: lentils, chickpeas, black beans\n- Tofu & tempeh\n- Seitan (wheat-based protein)\n- Nuts & seeds\n\n## Daily Eating Structure\n\n**Breakfast:** Oatmeal + berries + Greek yogurt + almonds\n\n**Pre-swim snack:** Banana + peanut butter or toast\n\n**Post-swim (within 30 min):** Protein shake (milk, protein powder, fruit)\n\n**Lunch:** Quinoa bowl with roasted chickpeas, veggies, tahini dressing\n\n**Snack:** Hummus + veggies, cheese, nuts\n\n**Dinner:** Lentil curry with brown rice + leafy greens\n\n**Evening (if needed):** Casein yogurt or milk\n\n## Hydration\n- 3-4L water daily\n- Electrolytes during/after 60+ min sessions\n\nWould you like specific meal ideas or recipes adjusted for training schedule?",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "178 cm",
+        "weight": "72 kg",
+        "goal": "High-performance swimming training with optimal energy and recovery",
+        "restrictions": "Vegetarian"
+      },
+      "solution_criteria": [
+        "Meal plan covers all 3 meals and includes hydration guidance appropriate for a swimmer",
+        "All meals are vegetarian and meet caloric/protein needs for a 72kg athlete in training",
+        "Plan is concise and practical to prepare/consume within a single day"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a sport-specific athlete (swimmer) with dietary restrictions (vegetarian) and hydration requirements"
+    },
+    "score": 2,
+    "reasoning": "The solution violates all three mandatory requirements. While it identifies appropriate macro targets and includes meal timing structure, it fails to provide: (1) a specific daily caloric total, (2) exact foods with portions and timing, and (3) macronutrient breakdown. The meals are listed as general categories without quantities, making it impossible for an athlete to execute the plan or verify nutritional adequacy. The solution reads as a framework rather than an actionable meal plan."
+  }
+]
